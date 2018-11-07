@@ -8,8 +8,7 @@
 /app/spool/*
 
 # Logs (Symfony4)
-/var/log/*
-/var/cache/*
+/var
 !var/log/.gitkeep
 
 # Parameters
@@ -43,3 +42,7 @@
 
 # Embedded web-server pid file
 /.web-server-pid
+
+###> symfony/web-server-bundle ###
+/.web-server-pid
+###< symfony/web-server-bundle ###
